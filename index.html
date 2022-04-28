@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- =============== AJAX =============== -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- ============= TITLE-ICON ============ -->
+        <link rel="shortcut icon" href="packages/img/icon.png" type="image/png">
+
+        <!-- =============== REMIXICONS =============== -->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!-- =============== SWIPER CSS =============== -->
+        <link rel="stylesheet" href="packages/css/swiper-bundle.min.css">
+
+        <!-- =============== CSS =============== -->
+        <link rel="stylesheet" href="packages/css/styles.css">
+
+        <!-- =============== FONT AWESOME =============== -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+        <title>Squid Game 2022</title>
+    </head>
+
+    <body>
+        <div class="preloader"></div>
+
+        <header class="header" id="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <a href="#"><img class="nav__logo" src="./packages/img/squid-game-nav-logo.png" /></a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list" id="menu">
+                        <li class="nav__item active-link">
+                            <a href="#home" class="nav__link ">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Discover</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#register" class="nav__link">Register</a>
+                        </li>
+                    </ul>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main ">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="packages/img/revealing-poster.jpg" alt="Site-main-poster" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__info">
+                        <a href="#register" class="button button--flex button--link home__info-button">
+                            Register Now <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 
+                ===================
+                Interactive T shirt
+                ===================
+             -->
+            <!-- <iframe allowfullscreen webkitallowfullscreen class="mini" width="400" height="400" frameborder="0" seamless
+                src="https://p3d.in/e/Bsv3r+spin+load"></iframe> -->
+
+
+            <!--==================== Countdown ====================-->
+            <section class="countdown section" id="countdown">
+                <div class="countdown__container container grid">
+                    <div class="countdown__img">
+                        <div class="countdown__img-overlay">
+                            <img src="./packages/img/squid-game-phase-01.png" alt="squid-game-phase-01"
+                                class="countdown__img-one">
+                        </div>
+                    </div>
+
+                    <div class="countdown__data comming-soon">
+                        <h1 style="color: var(--body-color);">The Event Has Ended!</h1>
+                    </div>
+                </div>
+            </section>
+            <section class="countdown section" id="countdown">
+                <div class="countdown__container countdown-dir-change container grid">
+                    <div class="countdown__img">
+                        <div class="countdown__img-overlay">
+                            <img src="./packages/img/squid-game-phase-02.jpeg" alt="squid-game-phase-02"
+                                class="countdown__img-one">
+                        </div>
+                    </div>
+
+                    <h1 style="color: var(--body-color);">Happening Now</h1>
+                </div>
+            </section>
+            <section class="countdown section" id="countdown">
+                <div class="countdown__container container grid">
+                    <div class="countdown__img">
+                        <div class="countdown__img-overlay">
+                            <img src="./packages/img/squid-game-phase-03.jpg" alt="comming-soon-poster"
+                                class="countdown__img-one">
+                        </div>
+                    </div>
+
+                    <div class="countdown__data comming-soon">
+                        <div class="countdown__div">
+                            <div class="countdown">
+                                <div class="container-day">
+                                    <h3 class="day">Time</h3>
+                                    <h3>Days</h3>
+                                </div>
+                                <div class="container-hour">
+                                    <h3 class="hour">Time</h3>
+                                    <h3>Hours</h3>
+                                </div>
+                                <div class="container-min">
+                                    <h3 class="min">Time</h3>
+                                    <h3>Minute</h3>
+                                </div>
+                                <div class="container-sec">
+                                    <h3 class="sec">Time</h3>
+                                    <h3>Second</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">THE SQUID GAME</h2>
+                        <p class="about__description">The “Squid game” is a well-known South Korean survival drama
+                            television series which was released in September 2021 and has already become the most
+                            watched Netflix series around the world. It revolves around a contest where players, risk
+                            their lives to play a series of 6 traditional children's games for the chance of winning a
+                            cash price at the end.
+                            <br><br>The Rotaract club of IIT will be initiating it's own rendition of the event for the
+                            first time in Sri Lanka to give the opportunity of experiencing the same adrenaline rush and
+                            excitement in participating in a series of similar elimination and point-based games for the
+                            ultimate prize!
+                        </p>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="./packages/img/squid-loader.gif" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section" id="discover">
+                <h2 class="section__title">FACTS ABOUT<br>The Squid Game</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__data">
+                        <p class="data__description">The first phase of this event was successfully concluded on the
+                            25th of February, where participants competed in a multiplayer online “squid game” game
+                            consisting of 5 rounds. The second phase will include pop-up games at two major venues
+                            during April and May. The winners of the first two phases will be awarded a free ticket to
+                            the final phase with an exciting prize.
+                            <br><br>
+                            The final phase is scheduled to take place in May 2022. This event will be opened to 456
+                            players. They will face a series of childhood games with a twist that would also include the
+                            6 original games from the Netflix series.
+                            <br><br>
+                            The event will conclude with an award ceremony, where the winner will be awarded a cash
+                            prize of Rs.100,000. All registered players of the final phase will receive food and
+                            beverages, official merchandise, and any required medical services on the day of the event.
+                        </p>
+                    </div>
+
+                    <!-- UNCOMMENT BELOW AFTER WINNER PRICE IS PROVIDED -->
+                    <!-- <div class="ex-co">
+                        <div class="image-container">
+                            <div class="image__overlay">
+                                <img src="packages/img/p1.jpeg" alt="prize-posters" class="experience__img-one">
+                            </div>
+                        </div>
+                    </div> -->
+                    <div>
+                        <div class="image-container">
+                            <div class="image__overlay squid-game-cards">
+                                <div class="event__content">
+                                    <h1>Online Squid Game</h1>
+                                    <p>40 players competed in an online Krunker 'Squid Game'. The winner was awarded a
+                                        ticket to the final phase</p>
+                                </div>
+                                <div class="event__date">
+                                    <h2>Phase 01</h2>
+                                </div>
+                            </div>
+                            <div class="image__overlay squid-game-cards squid-game-card-reverse">
+                                <div class="event__content">
+                                    <h1>Pop up games</h1>
+                                    <p>Customers at shopping complexes will be approached with a series of point-based
+                                        mini-games. The winner with the most amount of points will be awarded a cash
+                                        prize</p>
+                                </div>
+                                <div class="event__date">
+                                    <h2>Phase 02</h2>
+                                </div>
+                            </div>
+                            <div class="image__overlay squid-game-cards">
+                                <div class="event__content">
+                                    <h1>The Squid Game</h1>
+                                    <p>456 players will compete in a series of childhood games with a dark twist for two
+                                        consecutive days. The winner will be awarded ,a cash prize of Rs. 100,000</p>
+                                </div>
+                                <div class="event__date">
+                                    <h2>Phase 03</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">OFFICIAL TRAILER</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Fasten Your Seatbelts for THE SQUID GAME 2022</p>
+
+                    <div class="video__content">
+                        <video id="video-file" controls>
+                            <source src="./packages/video/squid-game.mp4" type="video/mp4" class="video-screen">
+                        </video>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== REGISTER Form ====================-->
+            <section class="register section" id="register">
+                <h2 class="section__title">REGISTER YOURSELF</h2>
+                <section class="section-f">
+                    <div class="imgB">
+                        <img src="./packages/img/Registration-poster.jpg" alt="" />
+                    </div>
+                    <div class="contentB">
+                        <div class="container-f">
+                            <div class="progress-bar">
+                                <div class="step">
+                                    <p>BEGIN</p>
+                                    <div class="bullet">
+                                        <span>1</span>
+                                    </div>
+                                    <div class="check fas fa-check"></div>
+                                </div>
+                                <div class="step">
+                                    <p>PAYMENT</p>
+                                    <div class="bullet">
+                                        <span>2</span>
+                                    </div>
+                                    <div class="check fas fa-check"></div>
+                                </div>
+                                <div class="step">
+                                    <p>DONE</p>
+                                    <div class="bullet">
+                                        <span>3</span>
+                                    </div>
+                                    <div class="check fas fa-check"></div>
+                                </div>
+                            </div>
+                            <div class="form-outer">
+                                <form action="" autocomplete="off" id="submit-form" name="google-sheet"
+                                    class="register__form grid" onkeydown="return event.key != 'Enter';">
+                                    <div class="page slide-page">
+
+                                        <div class="field">
+                                            <div class="label welcome-msg" for="">Enter the following details</div>
+                                        </div>
+
+                                        <div class="field" style="height:fit-content;">
+                                            <input name="ParticipantName" id="name-input" type="text"
+                                                placeholder="Full name" />
+                                            <input name="ParticipantEmail" id="email-input" type="email"
+                                                placeholder="Email" />
+                                            <input name="ParticipantContact" id="contact-input" type="text"
+                                                placeholder="Whatsapp Number" />
+                                        </div>
+
+                                        <div class="field">
+                                            <button type="button" class="firstNext next">Next</button>
+                                        </div>
+                                    </div>
+                                    <div class="page">
+
+                                        <div class="field btns Add-btn">
+                                            <button type="button"><a href="https://forms.gle/65UXtK2Xpwr5rb3r7"
+                                                    target="_blank" style="color:white;"> Make
+                                                    your payment</a></button>
+                                            <button type="button" class="prev-1 prev">Previous</button>
+                                            <button type="button" class="next-1 next">Next</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="page">
+                                        <div class="field">
+                                            <div class="label">For Queries</div>
+                                            <textarea name="Queries" rows="30" cols="70" id="query-input"></textarea>
+                                        </div>
+
+                                        <div class="field btns last-btns">
+                                            <button class="prev-2 prev">Previous</button>
+                                            <button type="submit" class="submit">Registered</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section class="merch section">
+                <div class="merch__bg">
+                    <div class="merch__container container">
+                        <h2 class="section__title merch__title">Our Official <br> Merchandise</h2>
+                        <p class="merch__description">Coming Soon!</p>
+                        <!-- UNCOMMENT BELOW AFTER MERCHANDISE IS PROVIDED -->
+                        <!-- <p class="merch__description">Drop a message on the allocated field in the registration form to
+                            confirm your order.</p>
+
+                        <div action="" class="merch__form">
+                            <img src="./packages/img/Finaltshirt.jpeg" alt="merchandise-poster" class="Merch-img" />
+                        </div>
+                        <div class="home__info" style="margin: 1rem auto;">
+                            <a href="#" target="_blank" class="button button--flex button--link home__info-button">
+                                Order Now
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="packages/img/OGF-logo.jpg" alt="" class="sponsor__img" style="filter:invert(1);">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- 
+            =================
+            Instagram section
+            =================
+         -->
+        <div class="insta-button">
+            <a href="https://www.instagram.com/thesquidgame2022/" target="_blank">
+                <button class="btn-insta">
+                    <span>More On Instagram</span><i class="fab fa-instagram material-icons" aria-hidden="true"></i>
+                </button>
+            </a>
+        </div>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About RACIIT</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="http://rciit.org/" target="_blank" class="footer__link">Raciit official
+                                    website</a>
+                            </li>
+                        </ul>
+                        <div>
+                            <a href="https://www.facebook.com/iitrotaract" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/iitrotaract?s=11" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href=" https://www.instagram.com/rotaract_iit/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href=" https://www.youtube.com/user/iitrotaract" target="_blank" class="footer__social">
+                                <i class="ri-youtube-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Contact Us</h3>
+                        <ul>
+                            <li class="footer__item">074 237 6089</li>
+                            <li class="footer__item">thesquidgameraciit@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2022 RACIIT. All rigths reserved.</p>
+                    <img class="footer-logo" src="packages/img/squid-footer-logo.png" alt="footer-logo">
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="packages/js/swiper-bundle.min.js"></script>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="packages/js/scrollreveal.min.js"></script>
+
+        <!--=============== Prize cards Tilt ===============-->
+        <script src="packages/js/vanilla-tilt.js"></script>
+
+        <!--=============== JQuery =================== -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!--=============== SWEET ALERT ===============-->
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <!-- ========== Nav scroll active =========== -->
+        <script src="packages/js/jquery.nav.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="packages/js/main.js"></script>
+
+        <script>
+            window.addEventListener("load", () => {
+                const preloader = document.querySelector(".preloader");
+                preloader.classList.add("preloader-finish");
+            });
+        </script>
+
+        <!--=============== Confirmation email ===============-->
+        <script>
+            $("#submit-form").submit((e) => {
+                e.preventDefault();
+                $.ajax({
+                    url: "https://script.google.com/macros/s/AKfycbz9zXxHYjBQQAse8H2cAxIHmIcPUGzBi2x5oQVUL1UOA2ZrgBGnSm_2a8V4EhWN5MTl/exec",
+                    data: $("#submit-form").serialize(),
+                    method: "post",
+                    success: function (response) {
+                        Swal.fire({
+                            position: "center",
+                            icon: "success",
+                            title: "Registration Successful",
+                            footer: "<p>Please contact: <b>074 237 6089</b> for further information</p>",
+                            showCancelButton: false,
+                            background: "#edfffc",
+                            allowOutsideClick: false
+                        }).then(() => {
+                            document.getElementById('submit-form').reset();
+                            window.location.reload();
+                        })
+
+                    },
+                    error: function (err) {
+                        Swal.fire({
+                            icon: "error",
+                            title: "Oops...",
+                            text: "Something went wrong!",
+                            footer: "<p>Please check the missing fields</p>",
+                            background: "#edfffc",
+                            showCancelButton: false,
+                            color: "fff",
+                            timer: 6000,
+                        })
+                    }
+                })
+            })
+        </script>
+    </body>
+
+</html>
