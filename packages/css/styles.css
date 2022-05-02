@@ -434,6 +434,7 @@ input {
   height: fit-content;
   margin: 0 auto;
   margin-top: 43rem;
+  margin-bottom: 2rem;
 }
 .home__info:hover {
   background: var(--first-color-alt);
