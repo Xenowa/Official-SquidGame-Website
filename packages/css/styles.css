@@ -308,6 +308,7 @@ input {
 
 .nav__logo {
   width: 7rem;
+  margin-top: 1rem;
   object-fit: cover;
 }
 
@@ -881,9 +882,9 @@ form .page .field .label {
 
 form .page .field .welcome-msg {
   color: var(--first-color-second);
-  /* font-size: 15px; */
   font-size: clamp(0.7rem, 1rem, 1.5rem);
   font-family: "Poppins", sans-serif;
+  bottom: 0;
   padding: 0.5rem;
   background: rgba(167, 2, 57, 0.2);
   border-radius: 4px;
