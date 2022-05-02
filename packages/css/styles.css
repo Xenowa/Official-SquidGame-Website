@@ -102,7 +102,7 @@ SQUID GAME POSTLOADER SECTION
   background: #212121;
   border: 0.1px solid rgba(255, 192, 203, 0.508);
   border-top: 1px solid rgba(255, 255, 255, 0.438);
-  font-size: 2ch;
+  font-size: 1.2rem;
 }
 
 .event__content h1 {
@@ -1928,10 +1928,6 @@ Media Screen CSS
 }
 
 @media screen and (max-height: 812px) {
-  /* .event__content p {
-    font-size: 0.6rem;
-  } */
-
   .section-f {
     height: 90vh;
   }
