@@ -884,7 +884,7 @@ form .page .field .welcome-msg {
   color: var(--first-color-second);
   font-size: clamp(0.7rem, 1rem, 1.5rem);
   font-family: "Poppins", sans-serif;
-  bottom: 0;
+  bottom: 0 !important;
   padding: 0.5rem;
   background: rgba(167, 2, 57, 0.2);
   border-radius: 4px;
