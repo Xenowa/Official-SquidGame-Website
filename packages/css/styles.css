@@ -3,7 +3,7 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 5rem;
+  --header-height: 4rem;
   --hue-color: 0;
 
   /* HSL color mode */
@@ -799,7 +799,7 @@ Squid Game part
 .contentB {
   display: flex;
   width: 50%;
-  height: 85vh;
+  /* height: 85vh; */
   justify-content: center;
   align-items: center;
   background: linear-gradient(rgba(163, 13, 83, 0.3), rgba(255, 95, 188, 0.8));
@@ -809,7 +809,7 @@ Squid Game part
 
 .container-f {
   width: 100%;
-  /* height: 75vh; */
+  height: 75vh;
   background: rgba(255, 255, 255, 0.82);
   text-align: center;
   border-radius: 5px;
@@ -820,6 +820,7 @@ Squid Game part
   justify-content: center;
   align-items: center;
 }
+
 .container-f header {
   font-size: 15px;
   font-weight: 600;
@@ -863,6 +864,7 @@ form p {
 
 .page {
   min-height: 35rem;
+  min-height: 50rem;
 }
 
 .select-field {
@@ -879,7 +881,7 @@ form .page .field .label {
 form .page .field .welcome-msg {
   color: var(--first-color-second);
   /* font-size: 15px; */
-  font-size: clamp(0.7rem, 2.5vw, 1.5rem);
+  font-size: clamp(0.7rem, 1rem, 1.5rem);
   font-family: "Poppins", sans-serif;
   padding: 0.5rem;
   background: rgba(167, 2, 57, 0.2);
@@ -1136,14 +1138,15 @@ form .page .btns button.next {
   row-gap: 3.5rem;
 }
 
-.sponsor__content:hover .sponsor__img {
-  filter: invert(0.3);
-}
-
 .sponsor__img {
   width: 195px;
-  filter: invert(0.1);
+  filter: invert(1);
   transition: var(--img-transition);
+}
+
+.sponsor__text {
+  text-align: center;
+  opacity: 70%;
 }
 
 /*=============== FOOTER ===============*/
@@ -1919,6 +1922,25 @@ Media Screen CSS
     display: flex;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-height: 756px) {
+  .event__content p {
+    font-size: 0.6rem;
+  }
+
+  .section-f {
+    height: 90vh;
+  }
+
+  .contentB {
+    height: 90vh;
+  }
+
+  .container-f {
+    width: 100%;
+    height: 90vh;
   }
 }
 /* 
