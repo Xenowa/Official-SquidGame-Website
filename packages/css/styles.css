@@ -91,7 +91,7 @@ SQUID GAME POSTLOADER SECTION
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   width: 100%;
   border-radius: 0 6px 6px 0;
-  font-family: "Times New Roman";
+  font-family: "Times New Roman" !important;
   line-height: 20px;
   color: #ffffff;
   background: linear-gradient(
@@ -1165,7 +1165,7 @@ form .page .btns button.next {
 .footer__title,
 .footer__subtitle {
   font-size: var(--h3-font-size);
-  width: 100%;
+  width: 100% !important;
 }
 
 .footer__title {
