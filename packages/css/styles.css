@@ -91,7 +91,7 @@ SQUID GAME POSTLOADER SECTION
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   width: 100%;
   border-radius: 0 6px 6px 0;
-  font-family: "Open Sans";
+  font-family: "Times New Roman";
   line-height: 20px;
   color: #ffffff;
   background: linear-gradient(
@@ -560,7 +560,6 @@ Squid Game part
 
 .countdown__img-one {
   width: 340px;
-  transform: scale(1.18);
 }
 
 .countdown__img-one {
@@ -569,7 +568,6 @@ Squid Game part
 
 .countdown__img-one:hover {
   transform: var(--img-scale);
-  transform: scale(1.3);
 }
 
 /*=============== ABOUT ===============*/
@@ -1167,6 +1165,7 @@ form .page .btns button.next {
 .footer__title,
 .footer__subtitle {
   font-size: var(--h3-font-size);
+  width: 100%;
 }
 
 .footer__title {
