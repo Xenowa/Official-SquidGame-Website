@@ -102,7 +102,7 @@ SQUID GAME POSTLOADER SECTION
   background: #212121;
   border: 0.1px solid rgba(255, 192, 203, 0.508);
   border-top: 1px solid rgba(255, 255, 255, 0.438);
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 .event__content h1 {
@@ -435,7 +435,7 @@ input {
   justify-content: center;
   height: fit-content;
   margin: 0 auto;
-  margin-top: 43rem;
+  margin-top: 35rem;
   margin-bottom: 2rem;
 }
 .home__info:hover {
@@ -706,7 +706,7 @@ Squid Game part
   position: relative;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 6px;
-  /* overflow: hidden; */
+  overflow: hidden;
   z-index: 1;
   border-top: 1px sold rgba(255, 255, 255, 0.2);
   border-left: 1px sold rgba(255, 255, 255, 0.2);
@@ -800,7 +800,7 @@ Squid Game part
 
 .contentB {
   display: flex;
-  width: 50%;
+  width: 100%;
   /* height: 85vh; */
   justify-content: center;
   align-items: center;
@@ -1285,6 +1285,11 @@ Media Screen CSS
   }
 }
 
+.thank-you-msg {
+  margin: 0 auto;
+  color: #000000;
+}
+
 /* For medium devices */
 @media screen and (min-width: 410px) {
   .thank-you-text {
@@ -1314,9 +1319,10 @@ Media Screen CSS
   }
 }
 
-.thank-you-msg {
-  margin: 0 auto;
-  color: #000000;
+@media screen and (min-width: 532px) {
+  .contentB {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 650px) {
@@ -1339,8 +1345,6 @@ Media Screen CSS
 
   .home__info {
     width: 180px;
-    padding: 1rem;
-    bottom: 9rem;
   }
 
   .day,
@@ -1377,6 +1381,10 @@ Media Screen CSS
   .countdown-dir-change {
     flex-direction: row-reverse;
   }
+
+  .event__content {
+    font-size: 1rem;
+  }
 }
 /* For tall screens on mobiles y desktop*/
 @media screen and (min-width: 721px) {
@@ -1385,6 +1393,10 @@ Media Screen CSS
   }
   .thank-you-text {
     right: 10rem;
+  }
+
+  .home__info {
+    margin-top: 43rem;
   }
 }
 
@@ -1583,7 +1595,8 @@ Media Screen CSS
   }
   .event__content {
     padding: 2rem;
-    /* width: calc(40vw - 50px); */
+    width: calc(40vw - 50px);
+    font-size: 1.2rem;
   }
 
   .event__date {
@@ -1697,6 +1710,7 @@ Media Screen CSS
     width: 250px;
     grid-template-columns: 1fr 2fr;
     column-gap: 2rem;
+    margin-top: 45rem;
   }
 
   .day,
