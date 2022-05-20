@@ -91,7 +91,7 @@ SQUID GAME POSTLOADER SECTION
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
   width: 100%;
   border-radius: 0 6px 6px 0;
-  font-family: "Times New Roman" !important;
+  font-family: "Open Sans" !important;
   line-height: 20px;
   color: #ffffff;
   background: linear-gradient(
@@ -718,7 +718,7 @@ Squid Game part
 }
 
 .experience__data .data__description {
-  font-size: var(--font-medium);
+  font-size: 1.1rem;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -1144,6 +1144,10 @@ form .page .btns button.next {
   width: 195px;
   filter: invert(1);
   transition: var(--img-transition);
+}
+
+.img__invert {
+  filter: invert(0);
 }
 
 .sponsor__text {
