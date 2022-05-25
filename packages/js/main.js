@@ -55,7 +55,7 @@ let swiper = new Swiper(".discover__container", {
 /*==================== Countdown ====================*/
 const countdown = () => {
   // const countDate = new Date("Sep 25, 2021 00:00:00").getTime();
-  const countDate = new Date("May 28, 2022 00:00:00").getTime();
+  const countDate = new Date("May 28, 2022 09:00:00").getTime();
   const now = new Date().getTime();
   const gap = countDate - now;
 
